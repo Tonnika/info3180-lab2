@@ -1,3 +1,15 @@
 body {
     padding-top: 5rem;
 }
+.block{
+    float: left;
+}
+#head{
+    float: left;
+}
+#footer{
+    float: right;
+}
+img{
+    border-radius:20px; 
+}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block main %}
+<link rel="stylesheet" href="{{url_for('static', file_name=''css/app.css" type="text/css" />
+<div id="head">
+    <img src="{{ url_for('static', file_name='photo.jpg')}}"/>
+    
+    <h1>Tonnika Richards</h1>
+    <h3>@tonnika.rich</h3>
+    <h3>Kingstown, St. Vincent</h3>
+    <h3>Joined {{datetime}}</h3>
+</div>
+<div id="footer">
+    <p> I am a smart and talented young woman who loves 
+    website design and development. Contact me if 
+    you'd like to work together on a new project</p>
+    
+    <div id="postinfo">
+        <h2>7  100  250</h2>
+        <h2>Posts  Following  Followers</h2>
+    </div>
+    
+    <div id="button">
+        <button>Follow</button>
+    </div>
+</div>
+{% endblock %}
